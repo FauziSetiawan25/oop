@@ -6,7 +6,6 @@ public class Gudang {
         BAUT,
         CAT
     }
-    public Bahan bahan;
     public HashMap<Bahan, Integer> stokBahan = new HashMap<>();
 
     public HashMap<Toko.tipebarang , Integer> isiGudang = new HashMap<>();
